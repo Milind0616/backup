@@ -7,11 +7,11 @@ function Footer() {
     <Box bg="#F7F7F7" mt="4em">
       <Flex
         // Responsive padding and direction
-        px={{ base: 4, md: 10 }}
+        px={{ base: 1, md: 8 }}
         direction={{ base: 'column', md: 'row' }}
         justify={{ base: 'center', md: 'space-between' }}
         borderTop="1px solid gray"
-        py="2em"
+        py="1em"
       >
         {/* Footer Buy section */}
         <Box mb={{ base: 4, md: 0 }}> {/* Adjust bottom margin for responsiveness */}
@@ -100,7 +100,7 @@ function Footer() {
           </Stack>
         </Box>
       </Flex>
-      <Box mt="3em" textAlign="center"> {/* Center text on smaller screens */}
+      <Box mt="1em" textAlign="center"> {/* Center text on smaller screens */}
         <Text>
           Copyright © 1995-2024 eBay Inc. All Rights Reserved. Accessibility, User
           Agreement, Privacy, Payment. Terms of Use. Cookies, CA Privacy Notice,
